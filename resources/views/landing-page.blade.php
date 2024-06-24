@@ -36,7 +36,7 @@
         <div class="branding d-flex align-items-center">
             <div class="container position-relative d-flex align-items-center justify-content-between">
                 <a href="index.html" class="logo d-flex align-items-center">
-                    <h1 class="sitename">Day</h1>
+                    <h1 class="sitename">Data Pegawai</h1>
                 </a>
                 <nav id="navmenu" class="navmenu">
                     <ul>
@@ -45,10 +45,12 @@
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#team">Team</a></li>
-                        <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <li class="dropdown"><a href="#"><span>Dropdown</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
                                 <li><a href="#">Dropdown 1</a></li>
-                                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
                                     <ul>
                                         <li><a href="#">Deep Dropdown 1</a></li>
                                         <li><a href="#">Deep Dropdown 2</a></li>
@@ -74,17 +76,20 @@
 
         <!-- Hero Section -->
         <section id="hero" class="hero section">
-            <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row justify-content-start">
-                    <div class="col-lg-8">
-                        <h2>Welcome to Day</h2>
-                        <p>We are a team of talented designers making websites with Bootstrap</p>
-                        <a href="/login" class="btn-get-started">Get Started</a>
-                        <!-- Tombol akan mengarah ke halaman login -->
+            <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
+                data-aos="zoom-out">
+                <img src="assets/img/hero-img.svg" class="img-fluid animated" alt="">
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row justify-content-start">
+                        <div class="col-lg-8">
+                            <h2>Welcome to Day</h2>
+                            <p>Kami mengelola data komprehensif untuk semua pegawai kami secara efisien</p>
+                            <a href="/login" class="btn-get-started">Get Started</a>
+
+                            <!-- Tombol akan mengarah ke halaman login -->
+                        </div>
                     </div>
                 </div>
-            </div>
         </section><!-- /Hero Section -->
 
         <!-- About Section -->
@@ -94,7 +99,7 @@
             <div class="container section-title" data-aos="fade-up">
                 <span>About Us<br></span>
                 <h2>About Us<br></h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>Kami memastikan kerahasiaan dan keakuratan informasi pegawai</p>
             </div><!-- End Section Title -->
 
             <div class="container">
