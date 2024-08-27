@@ -19,7 +19,7 @@
                 </form>
             </div>
             <div>
-                <a href="{{ route('pegawai.create') }}" class="btn btn-primary">Tambah Pegawai</a>
+                <a href="{{ route('pegawai.create') }}" class="btn btn-info">Tambah Pegawai</a>
             </div>
         </div>
 

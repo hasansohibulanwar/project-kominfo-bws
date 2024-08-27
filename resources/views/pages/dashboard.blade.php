@@ -5,12 +5,13 @@
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h3 class="text-primary">Dashboard</h3>
             <div class="dropdown">
-                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="profileDropdown"
+                    data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fas fa-user-circle"></i> Profile
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
-                    <li><a class="dropdown-item" href="{{ route('profile.edit') }}"><i class="fas fa-cog"></i> Settings</a></li>
-                    <li><a class="dropdown-item" href="{{ route('logout') }}"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                    <li><a class="dropdown-item" href="{{ route('profile.edit') }}"><i class="fas fa-cog"></i> Settings</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -73,13 +74,15 @@
 @push('js')
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-        google.charts.load('current', {'packages':['corechart']});
+        google.charts.load('current', {
+            'packages': ['corechart']
+        });
         google.charts.setOnLoadCallback(drawKotaChart);
 
         function drawKotaChart() {
             const data = google.visualization.arrayToDataTable([
                 ['Kota', 'Jumlah'],
-                @foreach($data['statistik_kota'] as $alamat => $jumlah)
+                @foreach ($data['statistik_kota'] as $alamat => $jumlah)
                     ['{{ $alamat }}', {{ $jumlah }}],
                 @endforeach
             ]);
