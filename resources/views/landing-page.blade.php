@@ -202,32 +202,35 @@
         <!-- Onfocus Section -->
         <section id="onfocus" class="onfocus section">
 
-          <div class="container-fluid p-0" data-aos="fade-up">
+            <div class="container-fluid p-0" data-aos="fade-up">
+              <div class="row g-0">
+                <!-- Video Section -->
+                <div class="col-lg-6 video-play position-relative">
+                  <iframe id="video-frame" width="900" height="683" src="https://www.youtube.com/embed/pGvsJ4g_TMI?autoplay=1&loop=1&playlist=pGvsJ4g_TMI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
 
-            <div class="row g-0">
-              <div class="col-lg-6 video-play position-relative">
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
-              </div>
-              <div class="col-lg-6">
-                <div class="content d-flex flex-column justify-content-center h-100">
-                  <h3>Voluptatem dignissimos provident quasi corporis</h3>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                  </ul>
-                  <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <!-- Text Section -->
+                <div class="col-lg-6">
+                  <div class="content d-flex flex-column justify-content-center h-100 p-4">
+                    <h3>Ramadan 1443 H - Dinas Kominfo Kabupaten Bondowoso</h3>
+                    <p class="fst-italic">
+                        Alhamdulillah kita semua masih diberikan kesehatan, sehingga dapat kembali bersama-sama memasuki Bulan Suci Ramadan 1443 H, bulan mulia yang penuh rahmat dan keberkahan.
+                        Semoga kita semua bisa menjalankan ibadah puasa dengan khusyuk dan kita bisa memperbanyak amal ibadah, Insya Allah mendapatkan pahala.
+                        Segenap keluarga besar Dinas Komunikasi dan Informatika Kabupaten Bondowoso Mengucapkan, Selamat menjalankan ibadah puasa Ramadan Tahun 1443 H.
+                    <ul>
+                      <li><i class="bi bi-check-circle"></i> Dinas Komunikasi dan Informatika.</li>
+                      <li><i class="bi bi-check-circle"></i> Dinas Komunikasi dan Informatika</li>
+                      <li><i class="bi bi-check-circle"></i> Dinas Komunikasi dan Informatikaabupaten Bondowoso Mengucapkan, Selamat menjalankan ibadah puasa Ramadan Tahun 1443 H.</li>
+                    </ul>
+                    <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
 
-          </div>
+          </section>
 
-        </section><!-- /Onfocus Section -->
+          <!-- /Onfocus Section -->
 
         <!-- Features Section -->
         <section id="features" class="features section">
