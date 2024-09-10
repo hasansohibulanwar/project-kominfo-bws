@@ -18,7 +18,7 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
+:root {
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #1a1f24; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #485664; /* Color for headings, subheadings and title throughout the website */
@@ -2974,4 +2974,85 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+/* laporan */
+/* General Table Styling */
+.table-modern {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px; /* Spacing between rows */
+    background-color: rgb(17, 0, 248);
+}
+
+.table-modern tr {
+    background-color: #fffd74; /* Row background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.table-modern tr:hover {
+    background-color: #fff565; /* Light blue hover */
+    transform: translateY(-2px); /* Lift on hover */
+}
+
+.table-modern td {
+    padding: 15px 20px;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Labels */
+.label-modern {
+    font-weight: bold;
+    color: #000000; /* Blue label */
+    font-size: 14px;
+}
+
+/* Inputs */
+.input-modern {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fcf9f9;
+    border-radius: 6px;
+    background-color: #ffffff; /* Light blue background */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-modern:focus {
+    border-color: #eeff04;
+    box-shadow: 0 0 8px rgba(238, 255, 0, 0.3);
+}
+
+textarea.input-modern {
+    resize: vertical;
+}
+
+/* Button */
+.btn-modern {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-modern:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    margin-top: 30px;
 }
