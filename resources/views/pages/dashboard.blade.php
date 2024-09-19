@@ -19,37 +19,40 @@
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="card border-0 shadow-sm">
-                    <div class="card-header text-white bg-primary d-flex justify-content-between align-items-center">
+                    <!-- Ubah warna background menjadi biru -->
+                    <div class="card-header text-white" style="background-color: #005BAC; d-flex justify-content-between align-items-center">
                         <span>Jumlah Pegawai</span>
                         <i class="fas fa-users"></i>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">{{ $data['jumlah_pegawai'] }}</h5>
+                        <h5 class="card-title">14</h5>
                         <a href="{{ route('pegawai.index') }}" class="btn btn-outline-primary mt-3">Info Lanjut</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card border-0 shadow-sm">
-                    <div class="card-header text-white bg-success d-flex justify-content-between align-items-center">
+                    <!-- Ubah warna background menjadi biru -->
+                    <div class="card-header text-white" style="background-color: #005BAC; d-flex justify-content-between align-items-center">
                         <span>Total Keseluruhan</span>
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">{{ $data['jumlah_orang'] }}</h5>
-                        <a href="#" class="btn btn-outline-success mt-3">Info Lanjut</a>
+                        <h5 class="card-title">14</h5>
+                        <a href="#" class="btn btn-outline-primary mt-3">Info Lanjut</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card border-0 shadow-sm">
-                    <div class="card-header text-white bg-warning d-flex justify-content-between align-items-center">
+                    <!-- Ubah warna background menjadi biru -->
+                    <div class="card-header text-white" style="background-color: #005BAC; d-flex justify-content-between align-items-center">
                         <span>Jumlah Kota</span>
                         <i class="fas fa-city"></i>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">{{ $data['jumlah_kota'] }}</h5>
-                        <a href="#" class="btn btn-outline-warning mt-3">Info Lanjut</a>
+                        <h5 class="card-title">14</h5>
+                        <a href="#" class="btn btn-outline-primary mt-3">Info Lanjut</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +93,7 @@
             const options = {
                 title: 'Statistik Data Kota',
                 is3D: true,
-                colors: ['#E72929', '#242B1D', '#EEFF04']
+                colors: ['#003366', '#005BAC', '#87CEEB']
             };
 
             const chart = new google.visualization.PieChart(document.getElementById('statistikKotaChart'));

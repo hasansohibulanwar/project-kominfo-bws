@@ -267,15 +267,12 @@
                 </tr>
 
                 <!-- Submit Button -->
-                <tr>
-                    <td colspan="2" class="text-center">
-                        <button type="submit" class="btn-modern">LAPOR!</button>
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </div>
-</section>
+                <form action="{{ route('lapor.store') }}" method="post" enctype="multipart/form-data">
+                    @csrf
+                    <!-- Form fields lainnya -->
+                    ...
+                    <button type="submit" class="btn-modern">LAPOR!</button>
+                </form>
 
         <!-- Clients Section -->
         <section id="clients" class="clients section">
